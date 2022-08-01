@@ -1,0 +1,338 @@
+*{
+
+    /* box-sizing: border-box; */
+    padding: 0px;
+    margin: 0px;
+    /* min-width: 1100px; */
+    /* max-width: 100%; */
+    overflow-x: hidden; 
+    box-sizing: inherit;
+
+}
+body{    
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    display: block;
+    /* max-width: 1519.20px; */
+    /* max-height: 3830.460px; */
+}
+
+#buttons-tab, #buttons-tab .btn {
+    background-color: black;
+}
+
+#buttons-tab {
+padding-top: 9px;
+padding-bottom: 5px;
+/* z-index: auto; */
+/* margin: 0px; */
+/* font-size: 15px;
+line-height: 1.5; */
+position: fixed;
+/* -webkit-text-size-adjust: 100%; */
+/* border: red 1px solid; */
+width: 100%;
+box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.366);
+/* box-sizing: inherit; */
+/* display: block; */
+/* font-family: "Lato", sans-serif; */
+}
+
+#buttons-tab .btn
+{
+color: white;
+/* font-size: 14px; */
+padding: 5px 20px;
+/* position: absolute; */
+/* border: 1px red solid; */
+
+}
+
+#searchbtn{
+position: absolute;
+right: 20px;
+}
+
+#intro-page
+{
+/* border: 1px solid purple; */
+/* width: 100pc; */
+text-align: center;
+background-image: url("Images/band.jpg");
+min-height: 800px;
+background-size: 100pc;
+color: white;
+text-align: center;
+/* width: 100pc; */
+}
+
+#Banding-summary{
+    /* padding: 64px 0px; */
+    padding: 64px 16px;
+    margin: 0px 359.60px;
+    /* border: 1px solid black; */
+    max-width: 800px;
+    min-height: 543.588px;
+
+    /* background-color: black; */
+}
+.Band-summary{
+   text-align: center;
+
+   /* margin: 0px 359.60px; */
+
+}
+/* p.summary
+{
+    /* border: 1px rgb(0, 4, 255) solid; */
+    /* margin: 10px 00px; 
+} */
+
+p.bandsummary{
+    /* border: 1px green solid; */
+    /* margin: 5px 100px; */
+    text-align:justify;
+    font-family: "Lato", sans-serif;
+    /* font-weight: 50px; */
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-break: auto;
+    /* font-size: 15px;
+    line-height: 1.5;  */
+    /* max-width: 785px; */
+/* max-height: 135px; */
+    /* height: 135px; */
+}
+
+/* #tour{
+    /* max-width: 1519.200px; */
+    /* max-height: 846.287px;     */
+    /* margin: 0px 359px; */
+    /* border: 1px white solid;
+
+} */
+
+/* h2#tourdatetab{
+       /* margin: 10px 0px;     
+        display: block;        
+        margin-block-start: 0.83em;        
+        margin-block-end: 0.83em;        
+        margin-inline-start: 0px; 
+        margin-inline-end: 0px;
+        letter-spacing: 4px; 
+        font-family: Segoe UI,Arial,sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+    
+} */
+#tour-dates{
+/* border: 1px white solid; */
+max-width: 0px 359px;
+}
+
+#tour-subsection{
+    /* border: 2px maroon dotted; */
+
+
+    padding: 32px 0px;
+    /* margin: 15px 0px; */
+    /* position: relative; */
+    /* right: 40px; */
+}
+#tour-subsection .tour-page {
+    display: flex;
+    /* float: left; */
+    /* border: 1px blue solid; */
+    /* text-align: center; */
+    /* margin: 0px 350px; */
+    /* margin-left: 425px ; */
+    /* max-width: 750px; */
+    /* padding-bottom: 100px; */
+
+}
+#tagline{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    opacity: 0.60;
+}
+
+.tour-page .tour-text {
+    /* border: 1px sienna solid; */
+    margin: 15px auto;
+    padding: 0px 0px;
+    
+}
+
+.tour-page .tour-image {
+    /* border: 1px rosybrown solid; */
+    margin: 0px auto;
+    max-width: 155px;
+    border-radius: 5px;
+}
+
+/* #tourarea
+{
+    padding: 50px;
+} */
+
+#tour-dates
+{
+text-align: center;
+background-color: black;
+color: white;
+/* border: 1px green solid; */
+padding: 70px;
+
+}
+
+#tour-dates #tourdatetab
+{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; 
+font-size: 40px;
+/* margin: 20px auto;  */
+}
+
+/* #tour-dates #tagline{
+color:darkgrey ;
+margin-bottom: 50px;
+} */
+
+#tour-dates .monthtabs{
+    background-color: white;
+    color: #757575;
+    text-align: -webkit-match-parent;
+    border-bottom: 1px solid #ddd;
+    /* border: 1px greenyellow solid; */
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    text-align: left;
+    /* padding: 5px; */
+    padding: 8px 16px;
+    margin: 0px 300px;
+    max-width: 800px;
+    max-height: 29.50px;
+}
+#tour-details{
+   display: flex; 
+   margin: 0 auto;
+   padding-top: 32px;
+    padding-bottom: 32px;
+   /* border: 1px white solid; */
+   max-width: 790px;
+   position: relative;
+   /* right: 5px; */
+    /* padding-right: 0px; */
+  
+}
+
+.subsection, .subsection .images{
+    background-color: white;}
+
+.subsection{
+    /* display: block; */
+    margin: auto 10px;
+text-align: left;
+padding-bottom: 20px ;
+color: black;
+min-height: 300px;
+
+/* border: 1px cyan solid; */
+/* max-width: 250px; */
+} 
+
+.subsection .images{
+text-align: center;
+color: black;
+/* border: 1px cyan solid; */
+max-width: 249px;
+
+}
+ 
+#contact-page {
+    /* border: blue 1px solid; */
+    /* padding: 0px 500px; */
+    text-align: center;
+    margin: 0px 359.6px;
+    padding: 64px 16px;
+}
+
+#contact-subsection
+{
+    /* border: blue 1px solid; */
+    padding-top: 32px;
+    padding-bottom: 32px
+
+} 
+
+.contact{
+    /* border: red 1px solid; */
+    text-align: left;
+    margin-bottom: 16px;
+    padding: 10px 0px;
+    font-size: 18px;
+    float: left;
+    
+    /* max-width: 150px; */
+    /* position: relative; */
+    /* left: 500px; */
+}
+
+ul{
+    list-style: none;
+}
+
+/* .input-boxes{
+    /* border: 1px red solid; */
+    /* position: relative; */
+    /* bottom: 70px; */
+    /* left: 170px; */
+    /* min-height: 30px; */
+    /* min-width: 300px;
+} */
+.input-box2{
+    border: 1px rgb(135, 135, 135) solid;
+    padding: 8px;
+    writing-mode: horizontal-tb !important;
+    /* min-width: 300px; */
+    width: 350px;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    position: relative;
+    /* top: 40px; */
+    left: 140px;
+    min-height: 20px;
+    /* min-width: 300px; */
+}
+
+#socialmedia-tab{
+    padding: 64px 16px;
+    /* border: red 1px solid; */
+    text-align: center;
+    background-color: #f1f1f1;
+
+}
+
+.socialplatforms{
+width: 20px;
+height: 20px;
+}
